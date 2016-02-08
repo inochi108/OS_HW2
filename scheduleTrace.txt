@@ -1,0 +1,175 @@
+Group 5: Nok Him Nam, Jowy Tran, Mark Johnson, David Humphreys
+Date (DD/MM/YY) : 28/ 01/ 2015
+Assignment : Problem 2 - Scheduling
+
+__________NEXT TIME QUANTUM  : 0___________
+//----------------------------------
+We are creating 3 PCBs 
+
+Name: Process0, PID: 0, Priority: 5
+Interrupt simulator : 0, PC : 0, State : ready
+
+Name: Process1, PID: 1, Priority: 6
+Interrupt simulator : 0, PC : 1000, State : ready
+
+Name: Process2, PID: 2, Priority: 6
+Interrupt simulator : 0, PC : 2000, State : ready
+
+//----------------------------------
+
+Running process: 
+Name: Process0, PID: 0, Priority: 5
+Interrupt simulator : 0, PC : 0, State : running
+
+//---------------------------------------
+
+State of the Ready Queue: 
+
+Process 1 -> Process 2 -> * 
+//-----------------------------
+
+
+
+__________NEXT TIME QUANTUM  : 4___________
+//----------------------------------
+We are creating 3 PCBs 
+
+Name: Process5, PID: 5, Priority: 14
+Interrupt simulator : 0, PC : 5000, State : ready
+
+Name: Process6, PID: 6, Priority: 1
+Interrupt simulator : 0, PC : 6000, State : ready
+
+Name: Process7, PID: 7, Priority: 4
+Interrupt simulator : 0, PC : 7000, State : ready
+
+//----------------------------------
+
+Running process: 
+Name: Process3, PID: 3, Priority: 5
+Interrupt simulator : 0, PC : 3000, State : running
+
+//---------------------------------------
+
+State of the Ready Queue: 
+
+Process 1 -> Process 4 -> Process 2 -> Process 5 -> Process 6 -> Process 7 -> Process 0 -> * 
+//-----------------------------
+
+
+
+__________NEXT TIME QUANTUM  : 8___________
+//----------------------------------
+We are creating 5 PCBs 
+
+Name: Process14, PID: 14, Priority: 11
+Interrupt simulator : 0, PC : 14000, State : ready
+
+Name: Process15, PID: 15, Priority: 9
+Interrupt simulator : 0, PC : 15000, State : ready
+
+Name: Process16, PID: 16, Priority: 2
+Interrupt simulator : 0, PC : 16000, State : ready
+
+Name: Process17, PID: 17, Priority: 8
+Interrupt simulator : 0, PC : 17000, State : ready
+
+Name: Process18, PID: 18, Priority: 9
+Interrupt simulator : 0, PC : 18000, State : ready
+
+//----------------------------------
+
+Running process: 
+Name: Process5, PID: 5, Priority: 14
+Interrupt simulator : 0, PC : 5000, State : running
+
+//---------------------------------------
+
+State of the Ready Queue: 
+
+Process 6 -> Process 7 -> Process 0 -> Process 8 -> Process 9 -> Process 10 -> Process 3 -> Process 11 -> Process 12 -> Process 1 -> Process 13 -> Process 4 -> Process 14 -> Process 15 -> Process 16 -> Process 17 -> Process 18 -> Process 2 -> * 
+//-----------------------------
+
+
+
+__________NEXT TIME QUANTUM  : 12___________
+//----------------------------------
+We are creating 4 PCBs 
+
+Name: Process26, PID: 26, Priority: 13
+Interrupt simulator : 0, PC : 26000, State : ready
+
+Name: Process27, PID: 27, Priority: 0
+Interrupt simulator : 0, PC : 27000, State : ready
+
+Name: Process28, PID: 28, Priority: 0
+Interrupt simulator : 0, PC : 28000, State : ready
+
+Name: Process29, PID: 29, Priority: 10
+Interrupt simulator : 0, PC : 29000, State : ready
+
+//----------------------------------
+
+Running process: 
+Name: Process8, PID: 8, Priority: 8
+Interrupt simulator : 0, PC : 8000, State : running
+
+//---------------------------------------
+
+State of the Ready Queue: 
+
+Process 9 -> Process 10 -> Process 3 -> Process 11 -> Process 12 -> Process 1 -> Process 13 -> Process 4 -> Process 14 -> Process 15 -> Process 16 -> Process 17 -> Process 18 -> Process 2 -> Process 19 -> Process 20 -> Process 21 -> Process 22 -> Process 23 -> Process 5 -> Process 24 -> Process 25 -> Process 6 -> Process 7 -> Process 26 -> Process 27 -> Process 28 -> Process 29 -> Process 0 -> * 
+//-----------------------------
+
+
+
+__________NEXT TIME QUANTUM  : 16___________
+We are done creating PCBs
+//----------------------------------
+
+Running process: 
+Name: Process11, PID: 11, Priority: 4
+Interrupt simulator : 0, PC : 11000, State : running
+
+//---------------------------------------
+
+State of the Ready Queue: 
+
+Process 12 -> Process 1 -> Process 13 -> Process 4 -> Process 14 -> Process 15 -> Process 16 -> Process 17 -> Process 18 -> Process 2 -> Process 19 -> Process 20 -> Process 21 -> Process 22 -> Process 23 -> Process 5 -> Process 24 -> Process 25 -> Process 6 -> Process 7 -> Process 26 -> Process 27 -> Process 28 -> Process 29 -> Process 0 -> Process 8 -> Process 9 -> Process 10 -> Process 3 -> * 
+//-----------------------------
+
+
+
+__________NEXT TIME QUANTUM  : 20___________
+We are done creating PCBs
+//----------------------------------
+
+Running process: 
+Name: Process4, PID: 4, Priority: 10
+Interrupt simulator : 0, PC : 7858, State : running
+
+//---------------------------------------
+
+State of the Ready Queue: 
+
+Process 14 -> Process 15 -> Process 16 -> Process 17 -> Process 18 -> Process 2 -> Process 19 -> Process 20 -> Process 21 -> Process 22 -> Process 23 -> Process 5 -> Process 24 -> Process 25 -> Process 6 -> Process 7 -> Process 26 -> Process 27 -> Process 28 -> Process 29 -> Process 0 -> Process 8 -> Process 9 -> Process 10 -> Process 3 -> Process 11 -> Process 12 -> Process 1 -> Process 13 -> * 
+//-----------------------------
+
+
+
+__________NEXT TIME QUANTUM  : 24___________
+We are done creating PCBs
+//----------------------------------
+
+Running process: 
+Name: Process17, PID: 17, Priority: 8
+Interrupt simulator : 0, PC : 17000, State : running
+
+//---------------------------------------
+
+State of the Ready Queue: 
+
+Process 18 -> Process 2 -> Process 19 -> Process 20 -> Process 21 -> Process 22 -> Process 23 -> Process 5 -> Process 24 -> Process 25 -> Process 6 -> Process 7 -> Process 26 -> Process 27 -> Process 28 -> Process 29 -> Process 0 -> Process 8 -> Process 9 -> Process 10 -> Process 3 -> Process 11 -> Process 12 -> Process 1 -> Process 13 -> Process 4 -> Process 14 -> Process 15 -> Process 16 -> * 
+//-----------------------------
+
+
